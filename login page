@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <style>
+     *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(lappy.jpg) no-repeat ;
+    }
+    .box{
+        background: transparent;
+    }
+    .box{
+        position: relative;
+        width: 380px;
+        height: 420px;
+        border-radius: 10px;
+        border: 5px solid;
+        border-color: rgba(255,255,255,.2);
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        background: url(lapp.jpg);
+         }
+
+.box h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: #fff;
+    align-items: center;
+}
+.box input{
+    margin-top: 10px;
+  
+
+}
+.box form{
+   
+    padding: 50px 40px;
+    z-index: 2;
+}
+   
+    </style>
+    <div s class="box">
+        <form action="">
+            <h2  >Login</h2>
+            <div class="input">
+            <input style="font-size: 20px;border: none; background: transparent;  border-bottom: 5px rgb(75, 227, 202) solid; color: rgb(255, 255, 255);padding-bottom: 5px; " type="text" required placeholder="Username">
+            </div>  
+            <div class="input">
+                <input style="font-size: 20px;; border: none; background: transparent; border-bottom: 5px rgb(75, 277, 202) solid; color: rgb(255, 255, 255);padding-bottom: 5px; " type="password" required placeholder="Password">
+            </div>  
+            <div style="margin-top: 10px; font-size: 20px; ">
+            <span style="color: #fff;" > New user ?</span> 
+            <a style="color: rgb(104, 194, 233);" href="#">sign up </a></div>
+
+            <div class="button">
+                <button style="align-items: center; padding: 4px; display: flex; align-self: center; justify-content: center; font-size: 30px; border-radius: 10px; margin-top: 40px; margin-left: 38%; border: solid rgb(4, 61, 53) 2px; color: rgb(0, 0, 0) ;  " type="submit  " >Login</button>
+            </div>
+    
+      </form>
+
+    </div>
+    
+</body>
+</html>
